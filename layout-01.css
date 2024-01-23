@@ -9,7 +9,7 @@ body {
 }
 
 div.wrapper {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     box-shadow: 0 0 15px black;
 }
@@ -24,7 +24,7 @@ img {
 
 img.pic-right {
     float: right;
-    margin: 0 0 1em 2em;
+    margin: 0 0 1rem 2rem;
     transition: all 1s ease;
     width: 150px;
     height: auto;
@@ -59,17 +59,17 @@ h1 {
 
 h2 {
     font-family: 'Stint Ultra Expanded', Geprgia, serif;
-    margin-bottom: .5em;
+    margin-bottom: .5rem;
     font-size: 180%;
 }
 
 h3 {
     text-transform: uppercase;
-    letter-spacing: .2em;
+    letter-spacing: .2rem;
     color: #7A0002;
     border-top: 1px solid;
     border-left: 3px solid;
-    padding-left: 1em;
+    padding-left: 1rem;
     clear: both;
 }
 
@@ -90,8 +90,8 @@ header {
 
 header p {
     font-style: italic;
-    font-size: 1.2em;
-    margin-top: .25em
+    font-size: 1.2rem;
+    margin-top: .25rem
 }
 
 
@@ -111,15 +111,15 @@ nav ul {
 }
 
 nav li {
-    padding: 1em;
+    padding: 1rem;
     list-style-type: none;
 }
 
 nav li a  {
-    padding: 1em 3em;
+    padding: 1rem 3rem;
     text-decoration: none;
     transition: all 1.5s ease;
-    border-radius: 3em;
+    border-radius: 3rem;
 }
 
 nav li a:hover {
@@ -137,7 +137,7 @@ main {
     line-height: 1.5;
     font-size: 120%;
     color: #555;
-    padding: 1em;
+    padding: 1rem;
     border: double 4px #EADDC4;
 }
 
@@ -150,27 +150,27 @@ section.food {
 
 section.item { /* all food items */
     background-color: #FFFBEB;
-    padding: 0 1em 2em 1em;
+    padding: 0 1rem 2rem 1rem;
     position: relative;
 }
 
 section.item h3 {
-    margin-left: -1em;
-    margin-right: -1em;
-    margin-bottom: 1em;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-bottom: 1rem;
     background-color: #efede4;
 }
 
 p.more a { /* links to learn more */
     text-decoration: none;
     border-bottom: 1px dotted;
-    padding-bottom: .2em;
+    padding-bottom: .2rem;
     font-family: verdana, sans-serif;
     text-transform: uppercase;
-    font-size: .8em;
+    font-size: .8rem;
     position: absolute;
     bottom: 0;
-    right: 1em;
+    right: 1rem;
 }
 
 
@@ -195,7 +195,7 @@ section.cat {
 /* ASIDE "HOURS"
 ----------------------------*/
 aside.hours {
-    padding: .5em;
+    padding: .5rem;
     border-radius: 35px;
     font-size: 80%;
     border: 1px solid #d0d0d0;
@@ -215,7 +215,7 @@ aside.hours h2 {
 span.day {
     color: #783F27;
     font-family: verdana, sans-serif;
-    font-size: .8em;
+    font-size: .8rem;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -227,8 +227,8 @@ span.day {
 footer {
     color: #EADDC4;
     text-align: center;
-    font-size: .8em;
-    padding: 1em;
+    font-size: .8rem;
+    padding: 1rem;
     font-family: verdana, sans-serif;
     background-color: #783F27;
 }
