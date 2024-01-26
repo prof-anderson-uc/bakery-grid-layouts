@@ -1,3 +1,5 @@
+/* This is my first repository! */
+
 * {
     box-sizing: border-box;
 }
@@ -19,7 +21,7 @@ div.wrapper {
 ----------------------------*/
 img {
     max-width: 100%;
-    height: auto;
+
 }
 
 img.pic-right {
